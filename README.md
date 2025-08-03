@@ -1,19 +1,32 @@
-# Elysia with Bun runtime
+# AI MCP Server
 
-## Getting Started
+Model Context Protocol (MCP) server built with Elysia and AI SDK for advanced AI text generation and streaming capabilities.
 
-To get started with this template, simply paste this command into your terminal:
+## ✨ Features
+
+- 🚀 **Fast Performance** - Built with Elysia and Bun for lightning-fast response times
+- 🤖 **AI Text Generation** - Powered by AI SDK for generating and streaming text from various LLM providers
+- 🔄 **Streaming Support** - Real-time text streaming with backpressure handling
+- 🛠️ **Tool Integration** - Support for tool calling and structured data generation
+- 📊 **Database Ready** - Drizzle ORM integration with PostgreSQL support
+- 🔧 **Developer Experience** - Hot reload, linting, and formatting out of the box
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- [Bun](https://bun.sh/) runtime installed
+
+### Installation
+
+Clone and install dependencies:
 
 ```bash
-bun create elysia ./elysia-example
+git clone <repository-url>
+cd aide-mcp-ai
+bun install
 ```
 
-## Development
+## 📄 License
 
-To start the development server run:
-
-```bash
-bun run dev
-```
-
-Open http://localhost:3000/ with your browser to see the result.
+This project is licensed under the MIT License - see the LICENSE file for details.
