@@ -1,4 +1,3 @@
- 
 import { jsonb, pgTable, varchar } from 'drizzle-orm/pg-core'
 
 export const reminder = pgTable('reminder', {
